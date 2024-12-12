@@ -23,3 +23,21 @@ Berikut ini adalah langkah-langkah untuk mengaktifkan tema Dracula di OhMyZsh:
    ```
    mv dracula/lib ~/.oh-my-zsh/themes/lib
    ```
+
+5. Mengatur Tema di Konfigurasi Zsh
+
+   ```
+   nano ~/.zshrc
+   ```
+
+6. Cari bagian yang berisi ZSH_THEME dan ubah nilainya menjadi dracula:
+
+   ```
+   ZSH_THEME="dracula"
+   ```
+
+7. Memuat Ulang Konfigurasi Zsh
+
+   ```
+   source ~/.zshrc
+   ```
