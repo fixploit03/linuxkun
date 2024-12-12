@@ -12,4 +12,6 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s "NamaTemaIcon"
 # setting window manager 
 xfconf-query -c xfwm4 -p /general/theme -s "NamaTemaWindowManager"
 
+# reload 
+xfwm4 --replace &
 
