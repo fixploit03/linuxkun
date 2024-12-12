@@ -12,13 +12,13 @@ Berikut ini adalah langkah-langkah untuk mengaktifkan tema Dracula di OhMyZsh:
    git clone https://github.com/dracula/zsh.git dracula
    ```
 
-3. Pindahkan Tema Zsh Dracula ke folder themes OhMyZsh
+3. Pindahkan Tema Zsh Dracula ke Folder Themes OhMyZsh
    
    ```
    mv dracula/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
    ```
    
-4. Pindahkan folder lib yang ada didalam folder dracula kedalam folder themes OhMyZsh
+4. Pindahkan Folder `lib` ke Folder `themes` OhMyZsh.
    
    ```
    mv dracula/lib ~/.oh-my-zsh/themes/lib
@@ -30,7 +30,7 @@ Berikut ini adalah langkah-langkah untuk mengaktifkan tema Dracula di OhMyZsh:
    nano ~/.zshrc
    ```
 
-6. Cari bagian yang berisi ZSH_THEME dan ubah nilainya menjadi dracula:
+6. Cari bagian yang berisi `ZSH_THEME` dan ubah nilainya menjadi `dracula`:
 
    ```
    ZSH_THEME="dracula"
